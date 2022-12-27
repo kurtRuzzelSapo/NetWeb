@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/infokurt.css" />
+		<script defer src="/app.js"></script>
+		<title>NetWeb</title>
+	</head>
+	<body>
+		<header id="nav" class="nav">
+			<div class="netflixLogo">
+				<a id="logo" href="/andrea-home.html"
+					><img id="netweb-logo" src="/img/arrow-left.png" alt="Logo Image"
+				/></a>
+			</div>
+		</header>
+		<h1 class="name">JASMIN ANDREA TURALBA</h1>
+		<div>
+			<img class="profile" src="/flexbox/project netweb/image_1.jpg" alt="" />
+		</div>
+		<div id="skill" class="box green">
+			<h2 id="category">Personal Information</h2>
+		</div>
+		<div class="box blue show">
+			<h2>Date of birthday: February 21 2004</h2>
+		</div>
+		<div class="box red show">
+			<h2>Birth place: San Marcelino Hospital, Zambales</h2>
+		</div>
+		<div class="box yellow">
+			<h2>Nationality: Filipino</h2>
+		</div>
+		<div class="box green">
+			<h2>Religion: Catholic</h2>
+		</div>
+		<div class="box blue">
+			<h2>Age: 18</h2>
+		</div>
+		<div class="box red">
+			<h2>Civil status: Single</h2>
+		</div>
+		<div class="box yellow">
+			<h2>Gender: Female</h2>
+		</div>
+		<div id="skill" class="box green">
+			<h2 id="category">Education</h2>
+		</div>
+		<div class="box green">
+			<h2>Bachelor of Science Information Technology</h2>
+		</div>
+		<div id="skill" class="box green">
+			<h2 id="category">Contacts</h2>
+		</div>
+		<div class="box blue">
+			<h2>Facebook: Andrea Allado Turalba</h2>
+		</div>
+		<div class="box red">
+			<h2>Instagram: wrldreax4</h2>
+		</div>
+		<div class="box yellow">
+			<h2>jasminallado</h2>
+			<h2>@gmail.com</h2>
+		</div>
+		<div id="skill" class="box green">
+			<h2 id="category">SKill</h2>
+		</div>
+		<div class="box blue">
+			<h2>Capable for analyzing and solving problems</h2>
+		</div>
+		<div class="box blue">
+			<h2>Responsible of all tasks that it given</h2>
+		</div>
+		<div class="box blue">
+			<h2>Doing works with timely manner</h2>
+		</div>
+		<script>
+			const nav = document.getElementById('nav');
+
+			window.addEventListener('scroll', () => {
+				if (window.scrollY >= 100) {
+					nav.classList.add('nav-black');
+				} else {
+					nav.classList.remove('nav-black');
+				}
+			});
+		</script>
+	</body>
+</html>
